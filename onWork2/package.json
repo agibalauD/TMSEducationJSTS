@@ -1,0 +1,21 @@
+{
+  "name": "tms",
+  "version": "1.0.0",
+  "description": "<<<<<<< Updated upstream ======= тут всё про обучение на TMS был пройден первый урок была добавлена еще одна ветка >>>>>>> Stashed changes",
+  "homepage": "https://github.com/agibalauD/TMSEducationJSTS#readme",
+  "bugs": {
+    "url": "https://github.com/agibalauD/TMSEducationJSTS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agibalauD/TMSEducationJSTS.git"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start":"tsx index.ts",
+    "dev":"tsx --watch index.ts"
+  }
+}

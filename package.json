@@ -10,7 +10,10 @@
     "build": "tsc",
     "typecheck": "tsc --noEmit",
     "start": "tsx index.ts",
-    "dev": "tsx --watch index.ts"
+    "dev": "tsx --watch index.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "^3.9.6",

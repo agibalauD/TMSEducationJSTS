@@ -1,0 +1,1 @@
+export const course = "TypeScript from TMS";

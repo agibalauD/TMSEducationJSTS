@@ -1,2 +1,4 @@
-npx lint-staged
-npm run typecheck
+for lesson in Lesson1 Lesson2 Lesson3 Lesson4; do
+  npm --prefix "$lesson" run lint || exit 1
+  npm --prefix "$lesson" run typecheck || exit 1
+done

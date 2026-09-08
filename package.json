@@ -14,7 +14,8 @@
     "dev": "tsx --watch index.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "hometask": "tsx --watch HomeTask_AgibalauD.ts"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
